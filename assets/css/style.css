@@ -1,0 +1,133 @@
+:root {
+    --color1: #212529;
+    --color2: #E5E1DA;
+    --color3: #343a40;
+    --color4: #AAD7D9;
+    --color5: #FBF9F1;
+    --color6: #0f0f0f;
+    --color7: #0ba3bb;
+}
+
+body {
+    font-family: "Comic", sans-serif;
+    background-color: var(--color5);
+    color: var(--color3);
+    padding: 10px 20px;
+}
+
+a {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color7);
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+    /* padding: 0; çünkü browserdan gelen bir değer vardı onu sıfırladık */
+}
+
+button {
+    /* genel buton düzenlemesi */
+    background: var(--color7);
+    border: 1px solid var;
+    color: var(--color5);
+    padding: 8px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 60px;
+    /* herbiri browser temsil ediyor ,eski sürümleri kullananlarında buttonu görmesini sağlıyor*/
+    -webkit-border-radius: 60px;
+    /* chorem */
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+button:hover{
+    background-color: var(--color4);
+    color: #212529;    
+    transition: all;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    -webkit-transform: matrix();
+    -moz-transform: matrix();
+    -ms-transform: matrix();
+    -o-transform: matrix();transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+.servicebtn{
+    background-color: #0e3255;
+}
+header nav.head1{
+    background-color: #047a8a;
+    pozition: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+header nav.head1{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem;
+    top:0; left:0; right: 0;
+    
+    
+}
+
+nav.head1 ul{
+    display: flex;
+    gap: 20px;
+    padding: 2rem;
+}
+
+nav.head1 ol{
+    display: none;
+}
+nav.head1 li.servicehover:hover  ol{
+    background-color: #047a8a;
+    display: block;
+    cursor: pointer;
+    margin: 5px;
+
+} 
+nav.head1 li.servicehover:hover{
+    background-color:var(--color2);
+    color: #0f0f0f;
+}
+nav.head2 img{
+    width: 50px;
+    height: 50px;
+}
+nav.head2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+div.calldiv i.fa-phone-volume,
+div.openingdiv i.fa-clock{
+
+    font-size: 40px;
+    color: var(--color7);
+    
+}
+div.calldiv,div.openingdiv,div.logodiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    fo
+}
+div.callus{
+    display: block;
+}
+
+
+
