@@ -19,8 +19,7 @@
     <header>
       <nav class="head1">
         <h3>
-          <i class="fa-solid fa-location-dot"></i> 66 Nicholas St. Buffalo
-          NewYork Us
+          <i class="fa-solid fa-location-dot"></i> 9 E Loockerman St Suite 311 Dover, DE 19901
         </h3>
         <ul>
           <li>About</li>
@@ -30,6 +29,7 @@
               <li>A Service</li>
               <li>B Service</li>
               <li>C Service</li>
+              <li>D Service</li>
             </ol>
           </li>
           <li>Contanct</li>
@@ -38,7 +38,7 @@
 
       <nav class="head2">
         <div class="logodiv">
-          <img src="/assets/img/logo.png" alt="logo" title="B192" /><h3>D&2</h3>
+          <img src="/assets/img/logo.png" alt="logo" title="B192" /><h3>Dev02&Teams</h3>
         </div>
 
         <div class="calldiv">
@@ -69,10 +69,11 @@
 
     <menu>
       <nav class="menubar1">
-        <div><i class="fa-solid fa-igloo"></i></div>
+        <div class="home">
+          <a href="#"><i class="fa-solid fa-igloo"></i></a></div>
         <div>
           <ul>
-            <li>
+            <li class="hover service">
               Services
               <ol>
                 <li>Assembly</li>
@@ -81,7 +82,7 @@
               </ol>
             </li>
             <li>About</li>
-            <li>
+            <li class="hover projects">
               Projects
               <ol>
                 <li>Home Project</li>
@@ -94,7 +95,7 @@
             <li>Blog</li>
             <li>Shop</li>
             <li>Contact</li>
-            <li>
+            <li class="hover extra">
               Extra <sup>NEW</sup>
               <ol>
                 <li>Landscaping</li>
@@ -128,20 +129,24 @@
             </li>
           </ul>
         </div>
-        <div>
-          <i class="fa-solid fa-cart-shopping"></i>
+        <div class="shopping">
+          <a href="#"><i class="fa-solid fa-cart-shopping"> 
+            &nbsp</i></a>
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          
         </div>
-        <div><i class="fa-solid fa-magnifying-glass"></i></div>
+        
       </nav>
 
       <nav class="menubar2">
         <h2>Decoration & Furviture</h2>
         <h3>Living Room</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-          deserunt expedita velit exercitationem magni ipsum tenetur, eligendi
-          doloremque quod quidem illum quas
-        </p>
+        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Id eligendi architecto dolorum doloribus nemo 
+perferendis ea porro consectetur,
+atque officiis saepe laudantium
+reiciendis earum qui molestias praesentium fuga voluptatibus?
+        </pre>
 
         <button>Read More</button>
         <button class="servicebtn">Our Services</button>
@@ -149,9 +154,10 @@
     </menu>
 
     <main>
-      <nav>
-        <div>We are Specialized</div>
-        <div>
+      <nav class="weare">
+        <h2>We are Specialized</h2>
+        <hr>
+        <div class="text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
           ducimus magnam eius, quam quidem odit deserunt, vel optio nulla
           eveniet, modi at commodi nisi suscipit neque quia tenetur quis. Modi!
@@ -159,20 +165,20 @@
         <button>View all Services</button>
       </nav>
       <nav>
-        <div style="background-image: url(/assets/img/dizayn.jpg)">
+        <div class="img" style="background-image: url(/assets/img/dizayn.jpg)">
           Architectural Planning
         </div>
-        <div>
+        <div class="text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nisi
           ex quas eaque, voluptas placeat aspernatur corrupti distinctio eveniet
           modi saepe ut neque excepturi aut iste dicta totam atque magni.
         </div>
       </nav>
       <nav>
-        <div style="background-image: url(/assets/img/dizayn-2.jpg)">
+        <div class="img" style="background-image: url(/assets/img/dizayn-2.jpg)">
           Decoration & Furniture
         </div>
-        <div>
+        <div class="text" >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           perferendis magnam reprehenderit nesciunt harum, similique esse.
           Voluptatem laboriosam aliquid incidunt dolore itaque. Dolor vero
@@ -180,10 +186,10 @@
         </div>
       </nav>
       <nav>
-        <div style="background-image: url(/assets/img/dizayn-3.jpg)">
+        <div class="img" style="background-image: url(/assets/img/dizayn-3.jpg)">
           Landscape Design
         </div>
-        <div>
+        <div class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
           similique nesciunt cumque! Quisquam ea sapiente nisi soluta, at ex
           sunt totam ut iste voluptatibus ducimus voluptates dolorum modi
@@ -192,40 +198,79 @@
       </nav>
     </main>
     <footer>
-      <div>
-        <h4>SEND US A NOTE</h4>
-        <form action="">
-          <div>
-            <input
-              type="text"
-              name="name"
-              class="form-control"
-              id="name"
-              placeholder="Name"
-            />
-            <input
-              type="email"
-              name="email"
-              class="form-control"
-              id="email"
-              placeholder="E-mail"
-            />
-          </div>
-          <div>
-            <textarea
-              name="message"
-              id="message"
-              class="form-control"
-              cols="30"
-              rows="5"
-              placeholder="Your message"
-            ></textarea>
-          </div>
-          <div class="text-center">
-            <button class="btn btn-bg">Send Message</button>
-          </div>
-        </form>
-      </div>
+      
+        
+
+        <div class="section-content">
+          <div class="row">
+            <div>
+              <div class="address">
+                <h4>ADDRESS</h4>
+                <address>
+                  
+                  Lorem ipsum dolor, sit amet consectetur
+                  adipisicing.
+                </address>
+              </div>
+
+              <ol>
+                <li>
+                  <a href="tel:+60444434444"
+                    ><i class="fa-solid fa-phone"></i> (060)
+                    444 434 444</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+60444434445"
+                    ><i class="fa-solid fa-fax"></i> (060)
+                    444 434 445</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:info@johndoe.com"
+                    ><i class="fa-solid fa-envelope"></i>
+                    info@b192.com</a
+                  >
+                </li>
+              </ol>
+
+              <div class="social">
+                <h4>FOLLOW ME</h4>
+                <ul>
+                  <li>
+                    <a
+                      href="https://linkedin.com"
+                      target="_blank"
+                      rel="no-opener no-referrer"
+                      ><i
+                        class="fa-brands fa-linkedin"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://twitter.com"
+                      target="_blank"
+                      rel="no-opener no-referrer"
+                      ><i
+                        class="fa-brands fa-x-twitter"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://facebook.com"
+                      target="_blank"
+                      rel="no-opener no-referrer"
+                      ><i
+                        class="fa-brands fa-facebook"
+                      ></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
       <div class="row">
         <p>
           Copyright &copy;2024 <span class="text-green">B192</span>. All rights
